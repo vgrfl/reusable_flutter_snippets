@@ -27,7 +27,7 @@ class UserFeedbackDialogTestScreen extends StatelessWidget {
 }
 
 class FeedbackDialog extends StatefulWidget {
-  const FeedbackDialog({Key? key}) : super(key: key);
+  const FeedbackDialog({super.key});
 
   @override
   State<FeedbackDialog> createState() => _FeedbackDialogState();
@@ -69,7 +69,6 @@ class _FeedbackDialogState extends State<FeedbackDialog> {
               },
             ),
             const Text("Note: Please include your email ID in the feedback if you would like to get follow up response.")
-
           ],
         ),
       ),
